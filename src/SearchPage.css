@@ -1,0 +1,64 @@
+#card-shop{
+    height: 150px;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+
+    margin:0;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#btnz{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  
+  
+    justify-content: center;
+  
+    gap:10px;
+}
+#btnz>button{
+   
+    font-family: roboto;
+    font-size: 17px;
+    padding:10px;
+    border-radius: 10px;
+
+}
+#btnz :nth-child(1){
+    background-color: springgreen;
+}
+#btnz :nth-child(2){
+    background-color: orange;
+}
+#card-shop>img{
+    height: 80%;
+    width:30%;
+    aspect-ratio: 4 / 3;
+}
+#descr{
+   
+    padding:0 10px;
+    display: flex
+    ;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+
+}
+#descr>#titles{
+    font-size: 12px;
+}
+#cont{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+   
+}

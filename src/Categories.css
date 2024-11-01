@@ -1,0 +1,114 @@
+#Main{
+   
+   
+    margin-top:20px;
+}
+
+#Heading{
+    display: flex;
+    justify-content: center;
+}
+#Heading>p{
+    color:white;
+    font-family: Roboto;
+    font-size: 32px;
+    width: fit-content;
+  
+    position: relative;
+}
+
+#Heading>p::after{
+    position: absolute;
+    content:" ";
+    width: 120%;
+    height: 10px;
+    bottom: -10px;
+    left: -30px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+#box{
+   
+    display: flex;  flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: center;
+    gap:20px;
+    
+}
+#card{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border:8px solid orange;
+    cursor: pointer;
+    user-select: none;
+   
+
+
+}
+#card h1{
+    font-size: 16px;
+    font-family: roboto;
+}
+#card>img{
+    height: 50%;
+    width: 50%;
+
+}
+#desc{
+    user-select: none;
+    justify-content: space-between;
+    gap:10px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border:8px solid orange;cursor: pointer;
+    font-size: 8px;
+    padding:7px;
+    text-align: center;
+
+}
+#desc>button{
+    padding:10px 20px;
+    border-radius: 20px;
+    font-family: roboto;
+    color:black;
+    cursor: pointer;
+
+font-weight: bold;    background-color: springgreen;
+}
+
+
+@media (max-width:768px) {
+    #Heading>p{
+        
+        font-size:18px;
+        width: fit-content;
+      
+        position: relative;
+    }
+    
+    #Heading>p::after{
+        position: absolute;
+        content:" ";
+        width: 120%;
+        height: 3px;
+        bottom: -3px;
+        left: -15px;
+        background-color: orange;
+        border-radius: 10px;
+    }
+    
+    
+}

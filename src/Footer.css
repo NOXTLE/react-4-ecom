@@ -1,0 +1,13 @@
+#footer{
+    margin-top:20px;
+    height: 100px;
+    background-color: #121836;
+    color:white;
+    padding:10px 20px
+}
+#footer>h1{
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto;
+    margin-top:10px;
+}

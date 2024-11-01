@@ -1,0 +1,141 @@
+#prod{
+    
+    width: 100%;
+
+    margin:0;
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding-left:20px;
+    user-select: none;
+  
+}
+#prod-slider{
+    display: flex;
+    gap:20px;
+    width: 100%;
+    margin-top:40px;
+    
+
+}
+
+#Heading-prod{
+position: relative;
+
+display: flex;
+justify-content: center;
+}
+
+#Heading-prod>p{
+    color:white;
+    font-family: Roboto;
+    font-size: 32px;
+    width: fit-content;
+    position: relative;
+}
+
+#Heading-prod>p::after{
+    position: absolute;
+    content:" ";
+    width: 120%;
+    height: 10px;
+    bottom: -10px;
+    left: -30px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+#prod-cont{
+   
+    display: flex;
+    overflow: hidden;
+    gap:20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    
+}
+#for,#back{
+    position: absolute;
+    background-color: rgb(168, 158, 158);
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+
+    filter:drop-shadow(5px 5px 10px rgb(96, 94, 94));
+    z-index: 1;
+    
+}
+#for{
+    right: 5px;
+    top:50%
+}
+#back{
+    top:50%;
+    left:5px;
+}
+#prodcard{
+
+
+    height: 400px;
+    aspect-ratio: 3 / 4;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    font-size: 10px;
+    padding: 20px 10px;
+    border-radius: 20px;
+justify-content: space-between;
+font-family: roboto;
+
+
+}
+#prodcard>img{
+    height: 200px;
+    width: 200px;
+    aspect-ratio: 3 / 4;
+}
+#prodcard>p{
+    font-size:18px;
+    font-weight: bold;
+   
+}
+span{
+    color:green
+}
+#btn{
+    display: flex;
+   
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap:20px
+
+}
+#btn>button{
+    height: 40px;
+    
+    padding:10px;
+    border-radius: 10px;
+}
+#cartbtn,#buy{
+    display: flex;
+    align-items: center;
+    gap:4px
+}
+#cartbtn{
+    background-color: rgb(250, 178, 43);
+    color:whtite
+}
+#buy{
+    background-color: springgreen;
+}
+@media (max-width:768px){
+    #prod-cont{
+        display: flex;
+        overflow: scroll;
+        gap:20px;
+        position: relative;
+    }
+}

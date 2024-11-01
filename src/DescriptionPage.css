@@ -1,0 +1,70 @@
+#description{
+    
+    width: 100vw;
+    height: 100vh;
+    background-color: white
+
+}
+#img-1>*{
+    height: 500px;
+    
+    aspect-ratio: 3 / 4;
+    font-family: roboto;
+
+}
+#img-1{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    border-bottom: 1px solid gold;
+}
+#about,#h{
+    margin-top:10px;
+    padding:10px;
+    font-family: roboto;
+    
+
+}
+#about>*{
+    font-family: roboto;
+}
+#price-1{
+ 
+    margin-top:10px;
+}
+#rating{
+    text-align: center;
+    margin-top:10px;
+}
+#buttons{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 50px ;
+    width: 100%;
+}
+#buttons>*{
+    padding:10px 20px;
+    border-radius: 10px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#cart-bt{
+    background-color: orange;
+}
+@media (max-width:768px) {
+    #img-1>*{
+        height: 300px;
+        width: 60%;
+        aspect-ratio: 3 / 4;
+        font-family: roboto;
+    
+    }
+}
